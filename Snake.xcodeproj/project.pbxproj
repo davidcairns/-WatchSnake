@@ -13,6 +13,13 @@
 		DF8AE4221A1EB13500D690B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE4211A1EB13500D690B6 /* Images.xcassets */; };
 		DF8AE4251A1EB13500D690B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE4231A1EB13500D690B6 /* LaunchScreen.xib */; };
 		DF8AE4311A1EB13500D690B6 /* SnakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AE4301A1EB13500D690B6 /* SnakeTests.swift */; };
+		DF8AE4411A1EB14D00D690B6 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8AE4401A1EB14D00D690B6 /* WatchKit.framework */; };
+		DF8AE4461A1EB14D00D690B6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AE4451A1EB14D00D690B6 /* InterfaceController.swift */; };
+		DF8AE4481A1EB14D00D690B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE4471A1EB14D00D690B6 /* Images.xcassets */; };
+		DF8AE44C1A1EB14D00D690B6 /* Snake Watch App.app in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE44B1A1EB14D00D690B6 /* Snake Watch App.app */; };
+		DF8AE4531A1EB14D00D690B6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE4521A1EB14D00D690B6 /* Interface.storyboard */; };
+		DF8AE4551A1EB14D00D690B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE4541A1EB14D00D690B6 /* Images.xcassets */; };
+		DF8AE4581A1EB14D00D690B6 /* Snake WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF8AE43E1A1EB14D00D690B6 /* Snake WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = DF8AE4141A1EB13500D690B6;
 			remoteInfo = Snake;
 		};
+		DF8AE44D1A1EB14D00D690B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8AE40D1A1EB13500D690B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8AE44A1A1EB14D00D690B6;
+			remoteInfo = "Snake Watch App";
+		};
+		DF8AE4561A1EB14D00D690B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF8AE40D1A1EB13500D690B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF8AE43D1A1EB14D00D690B6;
+			remoteInfo = "Snake WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF8AE45F1A1EB14D00D690B6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DF8AE4581A1EB14D00D690B6 /* Snake WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DF8AE4151A1EB13500D690B6 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,15 @@
 		DF8AE42A1A1EB13500D690B6 /* SnakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8AE42F1A1EB13500D690B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8AE4301A1EB13500D690B6 /* SnakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeTests.swift; sourceTree = "<group>"; };
+		DF8AE43E1A1EB14D00D690B6 /* Snake WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Snake WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8AE4401A1EB14D00D690B6 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
+		DF8AE4441A1EB14D00D690B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8AE4451A1EB14D00D690B6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DF8AE4471A1EB14D00D690B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF8AE44B1A1EB14D00D690B6 /* Snake Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snake Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8AE4511A1EB14D00D690B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8AE4521A1EB14D00D690B6 /* Interface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
+		DF8AE4541A1EB14D00D690B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +97,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF8AE43B1A1EB14D00D690B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8AE4411A1EB14D00D690B6 /* WatchKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +113,9 @@
 			children = (
 				DF8AE4171A1EB13500D690B6 /* Snake */,
 				DF8AE42D1A1EB13500D690B6 /* SnakeTests */,
+				DF8AE4421A1EB14D00D690B6 /* Snake WatchKit Extension */,
+				DF8AE44F1A1EB14D00D690B6 /* Snake Watch App */,
+				DF8AE43F1A1EB14D00D690B6 /* Frameworks */,
 				DF8AE4161A1EB13500D690B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +125,8 @@
 			children = (
 				DF8AE4151A1EB13500D690B6 /* Snake.app */,
 				DF8AE42A1A1EB13500D690B6 /* SnakeTests.xctest */,
+				DF8AE43E1A1EB14D00D690B6 /* Snake WatchKit Extension.appex */,
+				DF8AE44B1A1EB14D00D690B6 /* Snake Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +169,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DF8AE43F1A1EB14D00D690B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AE4401A1EB14D00D690B6 /* WatchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF8AE4421A1EB14D00D690B6 /* Snake WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AE4451A1EB14D00D690B6 /* InterfaceController.swift */,
+				DF8AE4471A1EB14D00D690B6 /* Images.xcassets */,
+				DF8AE4431A1EB14D00D690B6 /* Supporting Files */,
+			);
+			path = "Snake WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DF8AE4431A1EB14D00D690B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AE4441A1EB14D00D690B6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF8AE44F1A1EB14D00D690B6 /* Snake Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AE4521A1EB14D00D690B6 /* Interface.storyboard */,
+				DF8AE4541A1EB14D00D690B6 /* Images.xcassets */,
+				DF8AE4501A1EB14D00D690B6 /* Supporting Files */,
+			);
+			path = "Snake Watch App";
+			sourceTree = "<group>";
+		};
+		DF8AE4501A1EB14D00D690B6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AE4511A1EB14D00D690B6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +223,12 @@
 				DF8AE4111A1EB13500D690B6 /* Sources */,
 				DF8AE4121A1EB13500D690B6 /* Frameworks */,
 				DF8AE4131A1EB13500D690B6 /* Resources */,
+				DF8AE45F1A1EB14D00D690B6 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				DF8AE4571A1EB14D00D690B6 /* PBXTargetDependency */,
 			);
 			name = Snake;
 			productName = Snake;
@@ -150,6 +253,39 @@
 			productReference = DF8AE42A1A1EB13500D690B6 /* SnakeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DF8AE43D1A1EB14D00D690B6 /* Snake WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8AE45C1A1EB14D00D690B6 /* Build configuration list for PBXNativeTarget "Snake WatchKit Extension" */;
+			buildPhases = (
+				DF8AE43A1A1EB14D00D690B6 /* Sources */,
+				DF8AE43B1A1EB14D00D690B6 /* Frameworks */,
+				DF8AE43C1A1EB14D00D690B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF8AE44E1A1EB14D00D690B6 /* PBXTargetDependency */,
+			);
+			name = "Snake WatchKit Extension";
+			productName = "Snake WatchKit Extension";
+			productReference = DF8AE43E1A1EB14D00D690B6 /* Snake WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		DF8AE44A1A1EB14D00D690B6 /* Snake Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8AE4591A1EB14D00D690B6 /* Build configuration list for PBXNativeTarget "Snake Watch App" */;
+			buildPhases = (
+				DF8AE4491A1EB14D00D690B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snake Watch App";
+			productName = "Snake Watch App";
+			productReference = DF8AE44B1A1EB14D00D690B6 /* Snake Watch App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +301,12 @@
 					DF8AE4291A1EB13500D690B6 = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = DF8AE4141A1EB13500D690B6;
+					};
+					DF8AE43D1A1EB14D00D690B6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DF8AE44A1A1EB14D00D690B6 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -183,6 +325,8 @@
 			targets = (
 				DF8AE4141A1EB13500D690B6 /* Snake */,
 				DF8AE4291A1EB13500D690B6 /* SnakeTests */,
+				DF8AE43D1A1EB14D00D690B6 /* Snake WatchKit Extension */,
+				DF8AE44A1A1EB14D00D690B6 /* Snake Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +346,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8AE43C1A1EB14D00D690B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8AE44C1A1EB14D00D690B6 /* Snake Watch App.app in Resources */,
+				DF8AE4481A1EB14D00D690B6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF8AE4491A1EB14D00D690B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8AE4531A1EB14D00D690B6 /* Interface.storyboard in Resources */,
+				DF8AE4551A1EB14D00D690B6 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +387,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF8AE43A1A1EB14D00D690B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF8AE4461A1EB14D00D690B6 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +402,16 @@
 			isa = PBXTargetDependency;
 			target = DF8AE4141A1EB13500D690B6 /* Snake */;
 			targetProxy = DF8AE42B1A1EB13500D690B6 /* PBXContainerItemProxy */;
+		};
+		DF8AE44E1A1EB14D00D690B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8AE44A1A1EB14D00D690B6 /* Snake Watch App */;
+			targetProxy = DF8AE44D1A1EB14D00D690B6 /* PBXContainerItemProxy */;
+		};
+		DF8AE4571A1EB14D00D690B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF8AE43D1A1EB14D00D690B6 /* Snake WatchKit Extension */;
+			targetProxy = DF8AE4561A1EB14D00D690B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +516,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Snake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Snake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +568,62 @@
 			};
 			name = Release;
 		};
+		DF8AE45A1A1EB14D00D690B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Snake_WatchKit_Extension;
+				INFOPLIST_FILE = "Snake Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		DF8AE45B1A1EB14D00D690B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = Snake_WatchKit_Extension;
+				INFOPLIST_FILE = "Snake Watch App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		DF8AE45D1A1EB14D00D690B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Snake WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF8AE45E1A1EB14D00D690B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Snake WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +649,22 @@
 			buildConfigurations = (
 				DF8AE4381A1EB13500D690B6 /* Debug */,
 				DF8AE4391A1EB13500D690B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF8AE4591A1EB14D00D690B6 /* Build configuration list for PBXNativeTarget "Snake Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8AE45A1A1EB14D00D690B6 /* Debug */,
+				DF8AE45B1A1EB14D00D690B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF8AE45C1A1EB14D00D690B6 /* Build configuration list for PBXNativeTarget "Snake WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8AE45D1A1EB14D00D690B6 /* Debug */,
+				DF8AE45E1A1EB14D00D690B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
