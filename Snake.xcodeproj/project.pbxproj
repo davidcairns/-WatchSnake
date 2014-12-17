@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3F46EF1A20213C00CEB540 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3F46ED1A20213C00CEB540 /* apple.png */; };
+		DF3F46F01A20213C00CEB540 /* snake_sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = DF3F46EE1A20213C00CEB540 /* snake_sprites.png */; };
 		DF8AE41B1A1EB13500D690B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AE41A1A1EB13500D690B6 /* AppDelegate.swift */; };
 		DF8AE41D1A1EB13500D690B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AE41C1A1EB13500D690B6 /* ViewController.swift */; };
 		DF8AE4201A1EB13500D690B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE41E1A1EB13500D690B6 /* Main.storyboard */; };
@@ -61,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF3F46ED1A20213C00CEB540 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = Snake/apple.png; sourceTree = SOURCE_ROOT; };
+		DF3F46EE1A20213C00CEB540 /* snake_sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = snake_sprites.png; path = Snake/snake_sprites.png; sourceTree = SOURCE_ROOT; };
 		DF8AE4151A1EB13500D690B6 /* Snake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8AE4191A1EB13500D690B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8AE41A1A1EB13500D690B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				DF8AE4451A1EB14D00D690B6 /* InterfaceController.swift */,
+				DF3F46ED1A20213C00CEB540 /* apple.png */,
+				DF3F46EE1A20213C00CEB540 /* snake_sprites.png */,
 				DF8AE4471A1EB14D00D690B6 /* Images.xcassets */,
 				DF8AE4431A1EB14D00D690B6 /* Supporting Files */,
 			);
@@ -354,7 +360,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF8AE44C1A1EB14D00D690B6 /* Snake Watch App.app in Resources */,
+				DF3F46EF1A20213C00CEB540 /* apple.png in Resources */,
 				DF8AE4481A1EB14D00D690B6 /* Images.xcassets in Resources */,
+				DF3F46F01A20213C00CEB540 /* snake_sprites.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,6 +651,7 @@
 				DF8AE4361A1EB13500D690B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF8AE4371A1EB13500D690B6 /* Build configuration list for PBXNativeTarget "SnakeTests" */ = {
 			isa = XCConfigurationList;
@@ -651,6 +660,7 @@
 				DF8AE4391A1EB13500D690B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF8AE4591A1EB14D00D690B6 /* Build configuration list for PBXNativeTarget "Snake Watch App" */ = {
 			isa = XCConfigurationList;
@@ -659,6 +669,7 @@
 				DF8AE45B1A1EB14D00D690B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF8AE45C1A1EB14D00D690B6 /* Build configuration list for PBXNativeTarget "Snake WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -667,6 +678,7 @@
 				DF8AE45E1A1EB14D00D690B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
