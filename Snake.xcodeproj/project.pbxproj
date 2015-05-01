@@ -14,7 +14,6 @@
 		DF8AE4201A1EB13500D690B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE41E1A1EB13500D690B6 /* Main.storyboard */; };
 		DF8AE4221A1EB13500D690B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE4211A1EB13500D690B6 /* Images.xcassets */; };
 		DF8AE4251A1EB13500D690B6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE4231A1EB13500D690B6 /* LaunchScreen.xib */; };
-		DF8AE4311A1EB13500D690B6 /* SnakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AE4301A1EB13500D690B6 /* SnakeTests.swift */; };
 		DF8AE4411A1EB14D00D690B6 /* WatchKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF8AE4401A1EB14D00D690B6 /* WatchKit.framework */; };
 		DF8AE4461A1EB14D00D690B6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8AE4451A1EB14D00D690B6 /* InterfaceController.swift */; };
 		DF8AE4481A1EB14D00D690B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8AE4471A1EB14D00D690B6 /* Images.xcassets */; };
@@ -25,13 +24,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DF8AE42B1A1EB13500D690B6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF8AE40D1A1EB13500D690B6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF8AE4141A1EB13500D690B6;
-			remoteInfo = Snake;
-		};
 		DF8AE44D1A1EB14D00D690B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DF8AE40D1A1EB13500D690B6 /* Project object */;
@@ -72,9 +64,6 @@
 		DF8AE41F1A1EB13500D690B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF8AE4211A1EB13500D690B6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF8AE4241A1EB13500D690B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		DF8AE42A1A1EB13500D690B6 /* SnakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF8AE42F1A1EB13500D690B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF8AE4301A1EB13500D690B6 /* SnakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeTests.swift; sourceTree = "<group>"; };
 		DF8AE43E1A1EB14D00D690B6 /* Snake WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Snake WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF8AE4401A1EB14D00D690B6 /* WatchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchKit.framework; path = System/Library/Frameworks/WatchKit.framework; sourceTree = SDKROOT; };
 		DF8AE4441A1EB14D00D690B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,13 +77,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		DF8AE4121A1EB13500D690B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF8AE4271A1EB13500D690B6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				DF8AE4171A1EB13500D690B6 /* Snake */,
-				DF8AE42D1A1EB13500D690B6 /* SnakeTests */,
 				DF8AE4421A1EB14D00D690B6 /* Snake WatchKit Extension */,
 				DF8AE44F1A1EB14D00D690B6 /* Snake Watch App */,
 				DF8AE43F1A1EB14D00D690B6 /* Frameworks */,
@@ -128,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				DF8AE4151A1EB13500D690B6 /* Snake.app */,
-				DF8AE42A1A1EB13500D690B6 /* SnakeTests.xctest */,
 				DF8AE43E1A1EB14D00D690B6 /* Snake WatchKit Extension.appex */,
 				DF8AE44B1A1EB14D00D690B6 /* Snake Watch App.app */,
 			);
@@ -152,23 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				DF8AE4191A1EB13500D690B6 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DF8AE42D1A1EB13500D690B6 /* SnakeTests */ = {
-			isa = PBXGroup;
-			children = (
-				DF8AE4301A1EB13500D690B6 /* SnakeTests.swift */,
-				DF8AE42E1A1EB13500D690B6 /* Supporting Files */,
-			);
-			path = SnakeTests;
-			sourceTree = "<group>";
-		};
-		DF8AE42E1A1EB13500D690B6 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DF8AE42F1A1EB13500D690B6 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -241,24 +204,6 @@
 			productReference = DF8AE4151A1EB13500D690B6 /* Snake.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DF8AE4291A1EB13500D690B6 /* SnakeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF8AE4371A1EB13500D690B6 /* Build configuration list for PBXNativeTarget "SnakeTests" */;
-			buildPhases = (
-				DF8AE4261A1EB13500D690B6 /* Sources */,
-				DF8AE4271A1EB13500D690B6 /* Frameworks */,
-				DF8AE4281A1EB13500D690B6 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF8AE42C1A1EB13500D690B6 /* PBXTargetDependency */,
-			);
-			name = SnakeTests;
-			productName = SnakeTests;
-			productReference = DF8AE42A1A1EB13500D690B6 /* SnakeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		DF8AE43D1A1EB14D00D690B6 /* Snake WatchKit Extension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF8AE45C1A1EB14D00D690B6 /* Build configuration list for PBXNativeTarget "Snake WatchKit Extension" */;
@@ -304,15 +249,12 @@
 					DF8AE4141A1EB13500D690B6 = {
 						CreatedOnToolsVersion = 6.2;
 					};
-					DF8AE4291A1EB13500D690B6 = {
-						CreatedOnToolsVersion = 6.2;
-						TestTargetID = DF8AE4141A1EB13500D690B6;
-					};
 					DF8AE43D1A1EB14D00D690B6 = {
 						CreatedOnToolsVersion = 6.2;
 					};
 					DF8AE44A1A1EB14D00D690B6 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 9M5CS7L3FF;
 					};
 				};
 			};
@@ -330,7 +272,6 @@
 			projectRoot = "";
 			targets = (
 				DF8AE4141A1EB13500D690B6 /* Snake */,
-				DF8AE4291A1EB13500D690B6 /* SnakeTests */,
 				DF8AE43D1A1EB14D00D690B6 /* Snake WatchKit Extension */,
 				DF8AE44A1A1EB14D00D690B6 /* Snake Watch App */,
 			);
@@ -345,13 +286,6 @@
 				DF8AE4201A1EB13500D690B6 /* Main.storyboard in Resources */,
 				DF8AE4251A1EB13500D690B6 /* LaunchScreen.xib in Resources */,
 				DF8AE4221A1EB13500D690B6 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF8AE4281A1EB13500D690B6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,14 +321,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF8AE4261A1EB13500D690B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DF8AE4311A1EB13500D690B6 /* SnakeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		DF8AE43A1A1EB14D00D690B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -406,11 +332,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DF8AE42C1A1EB13500D690B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF8AE4141A1EB13500D690B6 /* Snake */;
-			targetProxy = DF8AE42B1A1EB13500D690B6 /* PBXContainerItemProxy */;
-		};
 		DF8AE44E1A1EB14D00D690B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = DF8AE44A1A1EB14D00D690B6 /* Snake Watch App */;
@@ -460,7 +381,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -480,6 +401,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ede5b28d-a51f-455c-b2d7-e822ace5f9ba";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -502,7 +424,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -515,6 +437,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ede5b28d-a51f-455c-b2d7-e822ace5f9ba";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -528,6 +451,7 @@
 				INFOPLIST_FILE = Snake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -539,40 +463,7 @@
 				INFOPLIST_FILE = Snake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		DF8AE4381A1EB13500D690B6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SnakeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snake.app/Snake";
-			};
-			name = Debug;
-		};
-		DF8AE4391A1EB13500D690B6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SnakeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snake.app/Snake";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -588,6 +479,7 @@
 				IBSC_MODULE = Snake_WatchKit_Extension;
 				INFOPLIST_FILE = "Snake Watch App/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -602,6 +494,7 @@
 				IBSC_MODULE = Snake_WatchKit_Extension;
 				INFOPLIST_FILE = "Snake Watch App/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
@@ -618,6 +511,7 @@
 				INFOPLIST_FILE = "Snake WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -628,6 +522,7 @@
 				INFOPLIST_FILE = "Snake WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -649,15 +544,6 @@
 			buildConfigurations = (
 				DF8AE4351A1EB13500D690B6 /* Debug */,
 				DF8AE4361A1EB13500D690B6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF8AE4371A1EB13500D690B6 /* Build configuration list for PBXNativeTarget "SnakeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF8AE4381A1EB13500D690B6 /* Debug */,
-				DF8AE4391A1EB13500D690B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
