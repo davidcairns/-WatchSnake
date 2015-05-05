@@ -174,7 +174,8 @@ class SnakeGame {
 	
 	
 	var snakeParts = [DiscretePoint(6, 10), DiscretePoint(5, 10), DiscretePoint(4, 10)]
-	var direction:Direction = .Right
+	var direction: Direction = .Right
+	var pendingDirection: Direction? = nil
 	var isAlive = true
 	var remainingTime: NSTimeInterval = 20.0
 	var applesEaten = 0
@@ -247,6 +248,12 @@ class SnakeGame {
 		// If we're already dead, just bail!
 		if !self.isAlive {
 			return
+		}
+		
+		// Let the snake change direction!
+		if let newDirection = self.pendingDirection {
+			self.direction = newDirection
+			self.pendingDirection = nil
 		}
 		
 		// Move the snake forward!
@@ -454,10 +461,10 @@ class SnakeGame {
 	}
 	
 	func changeDirectionClockwise() {
-		self.direction = self.direction.nextValueClockwise()
+		self.pendingDirection = self.direction.nextValueClockwise()
 	}
 	func changeDirectionCounterClockwise() {
-		self.direction = self.direction.nextValueCounterClockwise()
+		self.pendingDirection = self.direction.nextValueCounterClockwise()
 	}
 }
 
@@ -469,13 +476,10 @@ class InterfaceController: WKInterfaceController {
 	@IBOutlet var rightImageButton: WKInterfaceButton?
 	var timer: NSTimer?
 	var game: SnakeGame
-
-    override init(context: AnyObject?) {
+	
+	override init() {
 		self.game = SnakeGame()
-		
-        // Initialize variables here.
-        super.init(context: context)
-    }
+	}
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
