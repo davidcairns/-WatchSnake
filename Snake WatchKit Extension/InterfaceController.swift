@@ -155,7 +155,7 @@ struct DiscreteRect {
 }
 
 class SnakeGame {
-	let updateInterval = 0.5
+	let updateInterval = 0.7
 	let gameSize = DiscreteSize(width: 16, height: 16)
 	let blockSize:Int = 8
 	var imageOutputSize: CGSize {
@@ -273,7 +273,7 @@ class SnakeGame {
 				self.apples.removeAtIndex(appleIdx)
 				
 				self.applesEaten++
-				self.remainingTime += 8.0
+				self.remainingTime += (8.0 - Double(self.applesEaten / 8))
 				
 				break
 			}
